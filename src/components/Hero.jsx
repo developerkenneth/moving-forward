@@ -1,7 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
 import DropText from "./DropText";
-import { NavLink } from "react-router-dom";
 
 const Hero = ( {title, subtitle} ) => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
-import { div } from "framer-motion/client";
 
 const About = () => {
   return (

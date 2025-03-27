@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 import CustomSlider from "../components/CustomSlider";
 import AboutUs from "../components/AboutUs";
 import Hero from "../components/Hero";
