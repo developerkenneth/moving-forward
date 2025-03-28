@@ -2,25 +2,29 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import slideImage1 from "../assets/slide-image1.jpg";
+import slideImage2 from "../assets/slide-image2.jpg";
+import slideImage3 from "../assets/slide-image3.jpg";
+
 
 const slides = [
   {
     id: 1,
     title: "Slide One",
     text: "This is the first slide description.",
-    image: "src/assets/slide-image1.jpg",
+    image: slideImage1,
   },
   {
     id: 2,
     title: "Slide Two",
     text: "This is the second slide description.",
-    image: "src/assets/slide-image2.jpg",
+    image: slideImage2,
   },
   {
     id: 3,
     title: "Slide Three",
     text: "This is the third slide description.",
-    image: "src/assets/slide-image3.jpg",
+    image: slideImage3,
   },
 ];
 

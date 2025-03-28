@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import aboutUsImage from "../assets/about-us.jpg"
 
 const AboutUs = () => {
   return (
@@ -14,7 +15,7 @@ const AboutUs = () => {
           viewport={{ once: true }}
         >
           <img
-            src="src\assets\about-us.jpg"
+            src={aboutUsImage}
             alt="moving forward about us image"
             className="rounded-2xl shadow-lg w-full"
           />

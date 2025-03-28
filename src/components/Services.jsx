@@ -1,5 +1,13 @@
 import React from "react";
 import Card from "./Card";
+import engineeringServicesSvg from "../assets/svg/engineering_services.svg";
+import maintenanceServicesSvg from "../assets/svg/maintenance-services.svg";
+import technicalServicesSvg from "../assets/svg/technical_services.svg";
+import procurementServicesSvg from "../assets/svg/procurement_services.svg";
+import manpowerServicesSvg from "../assets/svg/manpower_services.svg";
+import enviromentServicesSvg from "../assets/svg/environment_services.svg";
+
+
 
 const Services = () => {
   return (
@@ -19,7 +27,7 @@ const Services = () => {
               <Card
                 link={true}
                 title={"ENGINEERING SERVICES"}
-                image={"src/assets/svg/engineering_services.svg"}
+                image={engineeringServicesSvg}
                 subtitle={
                   <ul className="list-disc ml-2">
                     <li>
@@ -47,7 +55,7 @@ const Services = () => {
             <div className=" px-4 py-10 h-full">
               <Card
                 link={true}
-                image={"src/assets/svg/maintenance-services.svg"}
+                image={maintenanceServicesSvg}
                 title={"FACILITIES OPERATIONS & MAINTENANCE SERVICES"}
                 subtitle={
                   <>
@@ -76,7 +84,7 @@ const Services = () => {
             <div className=" px-4 py-10 h-full">
               <Card
                 link={true}
-                image={"src/assets/svg/technical_services.svg"}
+                image={technicalServicesSvg}
                 alt={"technical/specialist services"}
                 title={"TECHNICAL/SPECIALIST SERVICES"}
                 subtitle={
@@ -111,7 +119,7 @@ const Services = () => {
             <div className=" px-4 py-10 h-full">
               <Card
                 link={true}
-                image={"src/assets/svg/procurement_services.svg"}
+                image={procurementServicesSvg}
                 alt={"technical/procurement services"}
                 title={"PROCUREMENT SERVICES"}
                 subtitle={
@@ -131,7 +139,7 @@ const Services = () => {
             <div className=" px-4 py-10 h-full">
               <Card
                 link={true}
-                image={"src/assets/svg/manpower_services.svg"}
+                image={manpowerServicesSvg}
                 alt={"Man power outsourcing services"}
                 title={"MANPOWER OUTSOURCING SERVICES"}
                 subtitle={
@@ -150,7 +158,7 @@ const Services = () => {
             <div className=" px-4 py-10 h-full">
               <Card
                 link={true}
-                image={"src/assets/svg/environment_services.svg"}
+                image={enviromentServicesSvg}
                 alt={"Environmental services"}
                 title={"ENVIRONMENTAL SERVICES"}
                 subtitle={

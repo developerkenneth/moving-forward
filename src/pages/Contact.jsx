@@ -5,13 +5,14 @@ import {
   FaMapMarkerAlt,
   FaWhatsapp,
 } from "react-icons/fa";
+import contactImage from "../assets/contact-image.jpg"
 
 const Contact = () => {
   return (
     <>
       <div
         className="relative bg-cover bg-center h-screen flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('src/assets/contact-image.jpg')" }}
+        style={{ backgroundImage: `url(${contactImage})` }}
       >
         <div className="bg-black/70 p-8 rounded-lg text-center max-w-lg">
           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>

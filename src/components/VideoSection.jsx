@@ -1,15 +1,17 @@
 import { motion } from "framer-motion";
+import workingVideo from "../assets/videos/working.mp4"
+import machinesVideo from "../assets/videos/machines.mp4"
 
 const videos = [
   {
     id: 1,
     title: "live video of us on site",
-    src: "src/assets/videos/working.mp4",
+    src: workingVideo,
   },
   {
     id: 2,
     title: "See Our Machines",
-    src: "src/assets/videos/machines.mp4",
+    src: machinesVideo,
   },
 ];
 

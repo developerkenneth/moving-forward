@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
+import aboutStory from "../assets/about-story.jpg"
 
 const About = () => {
   return (
@@ -38,7 +39,7 @@ const About = () => {
 
         <div>
           <img
-            src="src\assets\about-story.jpg"
+            src={aboutStory}
             alt="about moving forward story"
           />
         </div>

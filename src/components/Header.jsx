@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import logo from "../assets/logo.png"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="text-2xl font-bold text-green-600">
-        <img className="h-12" src="src\assets\logo.png" alt="moving forward logo" />
+        <img className="h-12" src={logo} alt="moving forward logo" />
         </NavLink>
 
         {/* Desktop Menu */}

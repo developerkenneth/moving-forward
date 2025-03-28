@@ -1,10 +1,11 @@
 import React from "react";
+import contactBg from "../assets/contact-bg.jpg";
 
 const Contact = () => {
   return (
     <section
       className="opacity-0 transition-opacity duration-1000 ease-in-out min-h-screen flex items-center justify-center bg-cover bg-center relative p-6"
-      style={{ backgroundImage: "url('src/assets/contact-bg.jpg')" }}
+      style={{ backgroundImage: `url(${contactBg})` }}
     >
       {/* Overlay for better readability */}
       <div className="absolute inset-0 bg-black/50"></div>

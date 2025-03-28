@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 export default function Footer() {
   const home = "home";
@@ -29,7 +30,7 @@ export default function Footer() {
               <NavLink to={"/"}>
                 <img
                   className="bg-white rounded-md"
-                  src="src/assets/logo.png"
+                  src={logo}
                   alt="moving forward logo"
                 />
               </NavLink>
