@@ -1,6 +1,6 @@
 import React from "react";
 import DropText from "./DropText";
-import HeroImage from "./assets/slide-image1.jpg";
+import HeroImage from "../assets/slide-image1.jpg";
 
 const Hero = ( {title, subtitle} ) => {
   return (
