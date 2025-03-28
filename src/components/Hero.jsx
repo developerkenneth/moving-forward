@@ -1,5 +1,6 @@
 import React from "react";
 import DropText from "./DropText";
+import HeroImage from "./assets/slide-image1.jpg";
 
 const Hero = ( {title, subtitle} ) => {
   return (
@@ -8,8 +9,7 @@ const Hero = ( {title, subtitle} ) => {
       className="opacity-0 transition-opacity duration-1000 ease-in-out relative h-screen flex items-center justify-center text-white text-center px-6"
       style={{
 
-        backgroundImage: "url('/src/assets/slide-image1.jpg')",
-        backgroundImage: "url('/src/assets/slide-image1.jpg')",
+        backgroundImage: `url(${HeroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed", // Keeps the image fixed while scrolling
