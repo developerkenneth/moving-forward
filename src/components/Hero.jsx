@@ -7,7 +7,7 @@ const Hero = ( {title, subtitle} ) => {
     <section
       className="opacity-0 transition-opacity duration-1000 ease-in-out relative h-screen flex items-center justify-center text-white text-center px-6"
       style={{
-        backgroundImage: "url('src/assets/slide-image1.jpg')",
+        backgroundImage: "url('/src/assets/slide-image1.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed", // Keeps the image fixed while scrolling
