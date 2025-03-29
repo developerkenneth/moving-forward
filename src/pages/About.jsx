@@ -1,7 +1,19 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
-import aboutStory from "../assets/about-story.jpg"
+import aboutStory from "../assets/about-story.jpg";
+import missionSvg from "../assets/svg/mission.svg";
+import visionSvg from "../assets/svg/vision.svg";
+import coreValuesSvg from "../assets/svg/core-values.svg";
+import goalsSvg from "../assets/svg/goals.svg";
+import cooperateImg from "../assets/corporate.jpg"
+import aboutPolicies from "../assets/about-policies.jpg"
+import ceo from "../assets/CEO.jpg";
+import cfo from "../assets/lucky samuel-CFO.jpg";
+import cao from "../assets/Kelvin Kareem-CAO.jpg";
+import chiefFinancialOfficer from "../assets/Oliver Michael -CFO.jpg";
+
+
 
 const About = () => {
   return (
@@ -52,7 +64,7 @@ const About = () => {
             title={"OUR MISSION"}
             subtitle={"Powering progress through quality solutions."}
             link={false}
-            image={"src/assets/svg/mission.svg"}
+            image={missionSvg}
             alt={"card image for our mission"}
           />
         </div>
@@ -62,7 +74,7 @@ const About = () => {
             title={"OUR VISION"}
             subtitle={"To be the leader in the solutions we provide"}
             link={false}
-            image={"src/assets/svg/vision.svg"}
+            image={visionSvg}
             alt={"card image for our vision"}
           />
         </div>
@@ -91,7 +103,7 @@ const About = () => {
             </div>
           }
           link={false}
-          image={"src/assets/svg/core-values.svg"}
+          image={coreValuesSvg}
           alt={"SVG of moving forward core values card"}
         />
 
@@ -134,7 +146,7 @@ const About = () => {
             </div>
           }
           link={false}
-          image={"src/assets/svg/goals.svg"}
+          image={goalsSvg}
           alt={""}
         />
       </section>
@@ -144,7 +156,7 @@ const About = () => {
       <section className="max-w-6xl mx-auto">
         <div className="p-6 md:p-16 lg:p-26"
           style={{
-            backgroundImage: 'url("src/assets/corporate.jpg")',
+            backgroundImage: `url(${cooperateImg})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundAttachment: "fixed",
@@ -208,7 +220,7 @@ const About = () => {
 
         <div>
           <img className="rounded-2xl"
-            src="src\assets\about-policies.jpg"
+            src={aboutPolicies}
             alt="coporate policies"
           />
         </div>
@@ -222,22 +234,22 @@ const About = () => {
             {
               name: "Audu Kareem Samuel",
               role: "CEO",
-              img: "src/assets/CEO.jpg",
+              img:ceo,
             },
             {
               name: "Lucky samuel",
               role: "CFO",
-              img: "src/assets/lucky samuel-CFO.jpg",
+              img:cfo,
             },
             {
               name: "Kelvin Kareem",
               role: "CAO",
-              img: "src/assets/Kelvin Kareem-CAO.jpg",
+              img: cao,
             },
             {
               name: "Oliver udor Micheal",
               role: "Chief Financial Officer",
-              img: "src/assets/Oliver Michael -CFO.jpg",
+              img:chiefFinancialOfficer,
             },
           ].map((member, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
